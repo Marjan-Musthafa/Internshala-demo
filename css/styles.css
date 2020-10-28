@@ -1,0 +1,350 @@
+body {
+  background-color: #f2f4fb;
+}
+
+/*  Navigation styles  */
+.nav-deck {
+  padding: 10px 60px;
+}
+
+.c-img {
+  height: 25px;
+}
+
+.nav-deck a.navbar-brand {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1d2d50;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.navdeck-list {
+  padding: 0 10px;
+}
+
+.navdeck-list a {
+  font-weight: 500;
+}
+
+/* Main header   */
+.head-1-col {
+  padding: 40px 75px;
+}
+
+.header-text .text {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 20px
+}
+
+.header-text button {
+  margin-left: 25%;
+}
+
+.download-btn{
+  margin-right: 8px;
+}
+
+.header-video iframe {
+  border: 15px solid #16213e;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-left: 85px;
+}
+
+.header-content-list {
+  display: flex;
+  flex-direction: row;
+  margin: 100px 60px;
+
+}
+
+.header-content-col{
+margin-bottom: 20px;
+}
+
+.header-content-item {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 10px 40px 0 20px;
+  border: 2px solid white;
+  border-radius: 0 60px 60px 0
+}
+
+.header-content-img img{
+  width: 50%;
+}
+
+.header-content-text{
+  text-align: center;
+  width: 50%;
+  padding: 5px;
+}
+
+.header-content-para{
+  text-align: left;
+  font-size: 13px;
+  width: 150%;
+}
+
+/* Query section */
+
+.query-main-header{
+margin-left: 60px;
+}
+
+.query-header{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.query-1-col{
+  margin: auto 0;
+}
+
+.query-2-col img{
+  border-radius: 100%;
+}
+
+.doubt-solv-qa{
+text-align: center;
+}
+
+.doubt-solv-content-deck{
+display: flex;
+margin: 50px 0 25px 330px;
+}
+
+.arrow{
+  margin: auto 0;
+}
+
+.doubt-solv-para{
+margin: 10px 0;
+text-align: center;
+}
+
+.sp-img{
+  margin-left: 22px;
+}
+
+.doubt-btn{
+margin-left: 41%;
+}
+
+/* Live Class */
+.live-class-heading{
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  margin: 100px auto ;
+}
+
+.live-class-row-1{
+  margin-left: 5%;
+}
+
+.live-class-row-2{
+  margin-bottom: 20px;
+}
+
+.live-class-footer{
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 20px auto;
+
+}
+.book-cls-btn{
+margin-left: 41.5%;
+}
+
+.sp-iframe-border{
+  margin-bottom: 30px;
+  border: 15px solid #16213e;
+}
+
+/* jee header */
+
+.jee-block{
+  margin-left: 4%;
+}
+.indicator-block li{
+    background-color: #404040;
+    border-radius: 50%;
+   width: 12px;
+   height: 12px;
+}
+
+.jee-content-block{
+  margin-left: 4%;
+}
+
+.jee-btn{
+  margin: 5% 0 1% 42%;
+}
+
+/* Subhect-deck */
+.subject-deck-row{
+  margin-left: 24%;
+}
+.subject-deck-col{
+  text-align: center;
+}
+
+.subject-img{
+  width:50%;
+  margin-bottom: 20px;
+}
+.subject-inside-block{
+  background-color: white;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
+/* Book list */
+
+.book-list-heading{
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  margin: 100px auto 20px ;
+}
+.book-desc-para{
+  margin: 0 auto 50px;
+  width: 50%;
+  text-align: center;
+}
+
+.book-img{
+  width:25%;
+  margin-bottom: 20px;
+}
+
+/* Tutor section */
+ .tutor-col-1 {
+  padding: 30px;
+}
+
+.tutor-img{
+  float: left;
+  border-radius: 100%;
+}
+
+.tutor-sub-block{
+background-color: white;
+width: 75%;
+margin-left: 125px;
+padding: 25px;
+border-radius: 35px;
+}
+
+.tutor-row-1{
+  margin-left: 5%;
+
+}
+.tutor-row-2{
+margin-left: 25%;
+}
+
+/* footer */
+
+.footer-col{
+  background-color: white;
+  width: 50%;
+  margin-left: 120px;
+  padding: 25px;
+  border-radius: 35px;
+}
+
+@media (max-width: 980px) {
+  .header-text{
+    margin-left: 5%;
+  }
+
+  .header-video{
+    margin-left: 10%;
+  }
+.query-main-header{
+  margin-left: 90px;
+}
+  .query-1-col{
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+
+  .query-2-col{
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+
+.doubt-solv-qa{
+  margin-left:-100px;
+}
+
+  .sp-img{
+    margin-left: 35px;
+  }
+.doubt-solv-para{
+  width: 25%;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.arrow{
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.arrow img{
+transform: rotate(90deg);
+}
+
+.doubt-btn{
+  margin-left: 300px;
+}
+
+.frmedia-live-heading{
+text-align: left;
+margin-left: 7%;
+}
+
+.media-img-globe{
+  margin-bottom: 20px;
+}
+.live-class-footer{
+  text-align: left;
+  margin-left: 7%;
+}
+
+.book-cls-btn{
+  margin-left: 9%;
+}
+.media-block-1{
+  top: 394px;
+}
+
+.subject-deck-row{
+  margin-left: 3%;
+}
+
+.tutor-row-2{
+  margin-left: 5%;
+}
+
+.media-footer-carousol{
+  margin-left: 25%;
+  margin-top: 50px
+}
+
+.media-footer-row{
+  margin-left: 10%;
+}
+
+}
